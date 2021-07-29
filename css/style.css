@@ -1,0 +1,108 @@
+body {
+  color: rgb(60,60,60);
+  background: rgb(230,230,230);
+  font-family: Raleway;
+  font-size:  20px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: rgb(30,30,30);
+  font-family: "LibreBaskerville";
+  font-size:  40px;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "LibreBaskerville";
+  font-size:  30px;
+}
+
+a {
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: rgb(200,200,200);
+  text-decoration: none;
+}
+
+.container {
+  width:  700px;
+  margin:  40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color:  white;
+  padding: 40px;
+  box-shadow:  0px 10px 30px rgba(0,0,0,0.1);
+  border-radius:  4px;
+  margin: 20px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.list-inline li{
+  display:  inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+.list-inline i:hover{
+  font-size: 50px;
+  color: darkcyan;
+}
+
+.btn-cyan {
+  background-color: darkcyan;
+  color:  white;
+  padding: 15px 20px;
+  border-radius:  10px;
+}
+.btn-cyan:hover{
+  background-color:rgb(10,10,10);
+  color:  white;
+}
+
+.page-content {
+  margin-left: 200px;
+}
+
+.sidebar{
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+}
+#introduction p{
+ margin-bottom: 40px;
+}
